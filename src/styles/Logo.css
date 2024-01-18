@@ -1,0 +1,26 @@
+.logo-container {
+    height: 110px;
+    width: 70%;
+    justify-content: start;
+    display: flex;
+    align-items: center;
+}
+
+.logo-container-title{
+    padding-left: 30px;
+    display: flex;
+    font-size:32px;
+    font-family: 'Caveat', cursive;
+}
+
+@media (max-width:1150px) {
+    .logo-text {
+        border-bottom: 3px solid rgb(212, 175, 55);
+        font-size: 14px;
+    }
+    .logo-img {
+        width: 23%;
+        border-radius: 50%;
+        margin: 10px;
+    }
+}

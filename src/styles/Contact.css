@@ -1,0 +1,291 @@
+.contact-page {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-container {
+    width: 54%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    align-items: center;
+    padding: 10px;
+    width: 520px;
+    background-color: white;
+    height: 470px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.contact-form-area {
+    padding: 20px 10px 10px 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-title {
+    color: rgba(0, 0, 0, 0.586);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+label {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.form-input {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    outline: none;
+    margin: 14px;
+    margin-top: 4px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+    height: 30px;
+    width: 60%;
+}
+
+.form-input::placeholder {
+    color: white;
+}
+
+textarea::placeholder {
+    color: white;
+}
+
+textarea {
+    padding-top: 10px;
+    padding-left: 10px;
+    outline: none;
+    margin: 14px;
+    margin-top: 4px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+    height: 44px;
+    width: 60%;
+}
+
+.form-submit-button {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    background-color: #1089ff;
+    margin-top: 10px;
+    height: 30px;
+    width: 63%;
+}
+
+.err-msg {
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: tomato;
+}
+
+.contact-us {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    display: flex;
+    justify-content: center;
+    height: 510px;
+    width: 42%;
+    background-color: #1089ff;
+}
+
+.contact-us-in {
+    padding-right: 10px;
+    padding-top: 10%;
+    width: 100%;
+    padding-left: 10%;
+}
+
+.contact-us-title {
+    margin-left: 2%;
+    font-weight: normal;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.contact-form-in-contact-us {
+    display: none;
+}
+
+.icon-bg {
+    margin: 0px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.197);
+}
+
+.adress-info,
+.email-info,
+.phone-info {
+    margin: 0px 0px 14px 0px;
+    color: rgba(255, 255, 255, 0.951);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+    font-size: 15px;
+    width: 100%;
+    display: flex;
+}
+
+@media (max-width:1600px) {
+    .contact-us {
+        width: 50%;
+    }
+}
+
+@media (max-width:1490px) {
+    .contact-us {
+        width: 60%;
+    }
+
+    .contact-us-in {
+        font-size: 13px;
+    }
+
+    .form-input {
+        width: 72%;
+    }
+
+    textarea {
+        width: 72%;
+    }
+
+    .form-submit-button {
+        width: 77%;
+    }
+
+}
+
+@media (max-width:1400px) {
+    .contact-us {
+        width: 65%;
+    }
+
+    .contact-us-in {
+        font-size: 13px;
+    }
+
+    .contact-form {
+        width: 70%;
+    }
+}
+
+@media (max-width:1350px) {
+    .contact-us-info-title {
+        display: none;
+    }
+
+    .contact-form {
+        width: 80%;
+    }
+
+    .contact-us-in {
+        padding-left: 6%;
+        font-size: 11px;
+    }
+
+    .icon-bg {
+        margin: 0px 10px 0px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.197);
+    }
+}
+
+@media (max-width:1200px) {
+    .contact-form {
+        border-radius: 10px;
+        align-items: center;
+        padding: 0px;
+        width: 80%;
+        background-color: white;
+        height: 520px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-form-in-contact-us {
+        padding: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        width: 95%;
+        background-color: #1089ff;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .form-input {
+        width: 72%;
+    }
+
+    textarea {
+        width: 72%;
+    }
+
+    .form-submit-button {
+        width: 77%;
+    }
+
+    .contact-us {
+        display: none;
+    }
+
+    .form-title {
+        margin: 0px 0px 10px 0px;
+        font-size: 20px;
+    }
+
+    .form-input::placeholder {
+        color: gray;
+    }
+
+    textarea::placeholder {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: gray;
+    }
+
+    label {
+        display: none;
+    }
+}
+
+@media (max-width:900px) {
+    .contact-container{
+        width: 65%;
+    }
+    .contact-form {
+        width: 100%;
+    }
+}
+@media (max-width:600px) {
+    .contact-container{
+        width: 80%;
+    }
+    .contact-form {
+        width: 100%;
+    }
+}

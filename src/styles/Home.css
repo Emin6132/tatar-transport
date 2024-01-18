@@ -1,0 +1,551 @@
+.hero {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(211, 211, 211, 0.275);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.hero-texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0px 20px 20px;
+}
+
+.hero-text-title {
+    margin: 10px 10px 0px 10px;
+    font-weight: bold;
+    color: rgb(1, 0, 102);
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.hero-text-container {
+    margin: 4px;
+    padding: 10px;
+}
+
+.hero-text {
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    word-spacing: 3px;
+    font-size: 17px;
+    color: gray;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.phone-number-button-containers {
+    display: flex;
+    margin-top: 20px;
+}
+
+.phone-number-button-green {
+    font-size: 15px;
+    margin: 10px;
+    border: none;
+    background-color: rgb(18, 189, 18);
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+}
+
+.phone-number-button-red {
+    font-size: 15px;
+    margin: 10px;
+    border: none;
+    background-color: red;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+}
+
+.phone-number-button-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+}
+
+.phone-number-copy-button {
+    margin-top: -20px;
+    position: absolute;
+    display: none;
+    cursor: pointer;
+    border: none;
+    background-color: lightgray;
+    height: 26px;
+    width: 8.7%;
+    border-radius: 6px;
+}
+
+.visible {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.phone-icon {
+    margin-right: 8px;
+    color: white;
+}
+
+.hero-images-container {
+    margin-right: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 40px;
+}
+
+.hero-image {
+    border: 2px solid rgb(1, 0, 102);
+    padding: 4px;
+    border-radius: 2px;
+    height: 190px;
+    width: 280px;
+}
+
+.services {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    background-color: white;
+    padding: 60px 0px 40px 0px;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.services-title {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 36px;
+    color: darkgray;
+    font-weight: bold;
+    border-bottom: 2px solid;
+    width: 87%;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.service-container {
+    width: 100%;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 80px;
+    padding: 40px 0px 40px 0px;
+}
+
+.service {
+    text-align: center;
+    transition: 300ms;
+    height: 340px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    background-color: rgba(211, 211, 211, 0.62);
+    width: 300px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.service:hover {
+    transform: translateY(-10px);
+}
+
+.service-title {
+    color: rgb(90, 90, 90);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.service-img {
+    width: 300px;
+    height: 180px;
+}
+
+.service-explanation-text {
+    color: rgb(90, 90, 90);
+    padding: 6px;
+    line-height: 20px;
+    word-spacing: 1px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+
+.more-service-view-button {
+    text-decoration: none;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 20px;
+    border-bottom: 2px solid black;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+}
+
+.marketing-articles {
+    background-color: rgba(211, 211, 211, 0.275);
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.marketing-text-container {
+    background-color: white;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 20px 17px 10px 17px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 29%;
+}
+
+.marketing-text-title {
+    padding-bottom: 10px;
+    width: 100%;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.56);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.marketing-text {
+    margin: auto;
+    padding-top: 10px;
+    color: rgba(0, 0, 0, 0.619);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    width: 90%;
+    text-align: center;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+}
+
+.contact-btn-div {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-btn {
+    padding: 2px;
+    margin: 10px;
+    width: 44%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+}
+.home-page-footer{
+    height: 300px;
+}
+.home-page-footer-texts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.home-page-footer-texts-title{
+    font-size:60px;
+    font-family: 'Caveat', cursive;
+}
+.footer-icon-bg {
+    color: black;
+    margin: 0px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(211, 211, 211, 0.484);
+}
+
+.footer-adress-info,
+.footer-email-info,
+.footer-phone-info {
+    margin: 0px 0px 14px 0px;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+    font-size: 15px;
+    width: 100%;
+    display: flex;
+}
+
+
+@media (max-width:1650px) {
+    .marketing-articles {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .marketing-text-container {
+        margin-right: 10px;
+        margin-left: 10px;
+        margin: auto;
+        background-color: white;
+        height: 260px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 10px;
+        padding: 20px 17px 10px 17px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        width: 90%;
+    }
+
+    .marketing-text-title {
+        text-align: center;
+        padding-bottom: 10px;
+        width: 100%;
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.56);
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 2px solid;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .marketing-text {
+        margin: auto;
+        padding-top: 10px;
+        color: rgba(0, 0, 0, 0.619);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 16px;
+        width: 90%;
+        text-align: center;
+        line-height: 25px;
+        letter-spacing: 0.5px;
+    }
+}
+
+@media (max-width:1600px) {
+    .service {
+        width: 270px;
+    }
+}
+
+@media (max-width:1400px) {
+    .service {
+        width: 260px;
+    }
+
+    .service-container {
+        transition: 300ms;
+        gap: 40px;
+    }
+}
+
+@media (max-width:1310px) {
+    .phone-number-button-green {
+        font-size: 15px;
+        margin: 10px;
+        border: none;
+        background-color: rgb(18, 189, 18);
+        padding: 10px;
+        border-radius: 8px;
+        color: white;
+        width: 95%;
+    }
+
+    .phone-number-button-red {
+        font-size: 15px;
+        margin: 10px;
+        border: none;
+        background-color: red;
+        padding: 10px;
+        border-radius: 8px;
+        color: white;
+        width: 95%;
+    }
+
+    .phone-number-button-container {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
+
+    .phone-number-copy-button {
+        margin-top: -20px;
+        position: absolute;
+        display: none;
+        cursor: pointer;
+        border: none;
+        background-color: lightgray;
+        height: 26px;
+        width: 10%;
+        border-radius: 6px;
+    }
+
+    .marketing-text-container {
+        height: 280px;
+    }
+}
+
+@media (max-width:1260px) {
+    .marketing-articles {
+        width: 100%;
+        display: grid;
+        gap: 30px;
+        grid-template-columns: auto auto;
+    }
+
+    .mtc-3 {
+        width: 60%;
+        grid-column: 1 / 3;
+    }
+}
+
+@media (max-width:1200px) {
+    .service-container {
+        width: 100%;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .services-title {
+        width: 70%;
+    }
+
+    .service {
+        text-align: center;
+        transition: 300ms;
+        height: 340px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 10px;
+        background-color: rgba(211, 211, 211, 0.62);
+        width: 330px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width:1080px) {
+    .hero-images-container {
+        display: none;
+    }
+}
+
+@media (max-width:870px) {
+    .marketing-articles {
+        width: 100%;
+        display: grid;
+        gap: 30px;
+        grid-template-columns: auto;
+    }
+    .mtc-3 {
+        width: 60%;
+        grid-column: 1 / 2;
+    }
+
+    .marketing-text-container {
+        margin-right: 10px;
+        margin-left: 10px;
+        margin: auto;
+        background-color: white;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 10px;
+        padding: 20px 17px 10px 17px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        width: 90%;
+    }
+}
+
+@media (max-width:780px) {
+    .service {
+        width: 280px;
+    }
+
+    .service-container {
+        transition: 300ms;
+        gap: 40px;
+    }
+    .marketing-articles {
+        width: 100%;
+        display: grid;
+        gap:10px;
+        grid-template-columns: auto;
+    }
+
+}
+
+@media (max-width:680px) {
+    .service-container {
+        width: 100%;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .service {
+        text-align: center;
+        transition: 300ms;
+        height: 340px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 10px;
+        background-color: rgba(211, 211, 211, 0.62);
+        width: 330px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:400px) {
+    .phone-number-button-green {
+        font-size: 15px;
+        margin: 10px;
+        border: none;
+        background-color: rgb(18, 189, 18);
+        padding: 10px;
+        border-radius: 8px;
+        color: white;
+        width: 90%;
+    }
+
+    .phone-number-button-red {
+        font-size: 15px;
+        margin: 10px;
+        border: none;
+        background-color: red;
+        padding: 10px;
+        border-radius: 8px;
+        color: white;
+        width: 90%;
+    }
+
+    .phone-number-button-container {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}

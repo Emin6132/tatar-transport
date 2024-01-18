@@ -1,0 +1,163 @@
+.navigation {
+    height: 100%;
+    margin-right: 4%;
+    width: 44%;
+    display: flex;
+}
+
+.section-btn {
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 300ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 130px;
+    width: 20%;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.section-btn:hover,
+.section-btn.active{
+    transition: 300ms;
+    border-bottom: 2px solid red;
+}
+.icon{
+    font-size: 14px;
+    color: green;
+    margin-right: 8px;
+}
+
+.trin-trin
+{
+    animation-name: trin;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.navigation-bar-button{
+    outline: none;
+    cursor: pointer;
+    background: none;
+    border: none;
+    width:30%;
+    height: 100%;
+}
+.navigation-bar-icon{
+    transition: 300ms;
+    width: 100%;
+    font-size: 25px;
+}
+.active-navigation-bar-button{
+    transition: 300ms;
+    color: rgba(255, 0, 0, 0.848);
+    outline: none;
+    width: 30%;
+    cursor: pointer;
+    background: none;
+    border: none;
+    height: 100%;
+    border-radius: 50%;
+}
+@keyframes trin {
+
+    from {
+        transform:rotate3d(0, 0, 1, 0deg);
+    }
+    20%, 32%, 44%, 56%, 68% {
+        transform: rotate3d(0, 0, 1, 0deg);
+    }
+    23%, 35%, 47%, 59%, 71% {
+        transform: rotate3d(0,0,1,15deg);
+    }
+    26%, 38%, 50%, 62%, 74% {
+        transform: rotate3d(0,0,1,0deg);
+    }
+    29%, 41%, 53%, 65%, 77% {
+        transform: rotate3d(0,0,1,-15deg);
+    }
+    80% {
+        transform:rotate3d(0, 0, 1, 0deg);
+    }
+
+}
+@media (max-width:1400px){
+    .navigation {
+        margin-right: 4%;
+        width: 46%;
+        display: flex;
+    }
+}
+@media (max-width:1250px){
+    .navigation {
+        margin-right: 4%;
+        width: 47%;
+        display: flex;
+    }
+}
+@media (max-width:1150px){
+    .navigation {
+        width: 52%;
+        display: flex;
+    }
+    .section-btn {
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+        transition: 300ms;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        text-decoration: none;
+        height: 130px;
+        width: 20%;
+        color: black;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+}
+
+@media (max-width:850px){
+    .section-btn {
+        font-size: 13px;
+        padding-left: 10px;
+        padding-right: 10px;
+        transition: 300ms;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        height: 130px;
+        width: 20%;
+        color: black;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+}
+
+@media (max-width:750px){
+    .section-btn {
+        display: none;
+    }
+    .navigation-bar-button{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .navigation {
+        padding-right: 2%;
+        align-items: center;
+        margin-right: 0px;
+        height: 100%;
+        width: 44%;
+        display: flex;
+        justify-content: end;
+    }
+}
+@media (min-width:751px){
+    .navigation-bar-button{
+        display: none;
+    }
+    .active-navigation-bar-button{
+        display: none;
+    }
+}
