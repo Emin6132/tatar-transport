@@ -320,7 +320,7 @@ textarea {
     }
 
     .contact-form-in-contact-us {
-        height: 220px;
+        height: 100vh;
         padding-left: 10%;
         margin-top: 20px;
         border-radius: 0px;
