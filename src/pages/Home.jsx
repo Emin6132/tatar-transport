@@ -56,10 +56,10 @@ function HomePage() {
           </div>
         </div>
         <div className="hero-images-container">
-          <img src="src/images/image.png" className="hero-image" />
-          <img src="src/images/image3.png" className="hero-image" />
-          <img src="src/images/image4.png" className="hero-image" />
-          <img src="src/images/image5.png" className="hero-image" />
+          <img src="/images/image.png" className="hero-image" />
+          <img src="/images/image3.png" className="hero-image" />
+          <img src="/images/image4.png" className="hero-image" />
+          <img src="/images/image5.png" className="hero-image" />
         </div>
       </div>
       <div className="services">
